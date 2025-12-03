@@ -1,8 +1,8 @@
 # git-cbash
 A simple Git Bash helper for structured commit messages (feat/fix/docs style). Partially mimics the oh-my-zsh git-commit plugin for Git Bash users.
 
-### Usage
-To use it, first add the following in your `.bashrc` file:
+### Installation
+To install it, first add the following in your `.bashrc` file:
 ```sh
 gitc() {
 	read -p "Type of commit (feat/fix/docs/style/refactor/test/chore): " type
@@ -27,3 +27,7 @@ gitc() {
 ```
 
 The `.bashrc` file is usually located in your user home directory. Git Bash usually maps this to `C:\Users\<YourUsername>`.
+
+### Usage
+Simply run `gitc` in your respective terminal and it will start the process.
+<img width="835" height="103" alt="image" src="https://github.com/user-attachments/assets/f63c6f9a-04d9-442e-8aa6-2e4ac89df6c5" />
